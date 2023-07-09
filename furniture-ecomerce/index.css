@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header-row{
+    display: flex;
+    align-items: center;
+}
+.header-row > div{
+    flex: 1;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-area {
+    background-image: url(images/Rectangle\ 1.jpg);
+    background-size: cover;
+    margin-bottom: 80px;
+    background-position: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: #2F302C;
+    font-size: 16px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    /* padding: 0; */
+    height: 28px;
+}
+
+.right-link {
+    text-align: right;
+}
+
+.right-link a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 18px;
+    color: #2F302C;
+}
+
+.right-link button {
+    background: none;
+    border: none;
+    margin-left: 20px;
+}
+
+.header-area {
+    padding: 40px 0;
+}
+
+.hero-text {
+    max-width: 420px;
+    padding: 100px 0;
+}
+
+.hero-area .container {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-text h4 {
+
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2F302C;
+}
+
+.hero-text h2 {
+    font-size: 90px;
+    line-height: 100px;
+    margin-bottom: 40px;
+    color: #2F302C;
+}
+
+.hero-text h2 span {
+    font-weight: 800;
+    
+    
+}
+
+.hero-text p {
+    color: #7E7F7C;
+}
+
+hr {
+    width: 60%;
+    /* display: none; */
+    border: 1px solid #2F302C;
+}
